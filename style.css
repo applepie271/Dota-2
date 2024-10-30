@@ -149,10 +149,19 @@ h1{
    -webkit-text-fill-color: transparent;
 }
 .main__mechanic{
-    height: 800px;
+    height: 960px;
     background-image: url(/dota_2/images/mechanic.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-top: 10px;
+}
+.div1__mech{
+    display: flex;
+    justify-content: space-around;
+}
+.div3__mech{
+    display: flex;
+    justify-content: space-around;
 }
 .div1__p{
     font-family: "Philosopher", sans-serif;
@@ -160,10 +169,22 @@ h1{
     color: #B3B6C1;
     font-size: 30px;
     text-align: center;
-    width: 330px;
+    width: 400px;
     background: linear-gradient(to bottom, #B85E5E, #999999);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+}
+.div3__p{
+    font-family: "Philosopher", sans-serif;
+    color: #D34C4C;
+    color: #B3B6C1;
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    background: linear-gradient(to bottom, #B85E5E, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   align-self: center;
 }
 .main__strimers{
     background-image: url(/dota_2/images/brooda.png) ;
@@ -193,14 +214,13 @@ h1{
    -webkit-text-fill-color: transparent;
    padding-top: 40px ;
 }
-.strimers__img{
-    padding-top: 40px;
+.strimers{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px ;
 }
-.strimers__names{
-    display: flex;
-    justify-content: space-around;
+.stariy_bog{
+    text-align: center;
     font-family: 'Trade Winds';
     font-size: 30px; 
     font-weight: 200;

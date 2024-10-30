@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Trade+Winds&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* reset css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.header__logo {
+}
+.header__nav {
+    display: flex;
+    gap: 200px;
+    margin-right: 15%;
+
+}
+.nav__link {
+    font-size: 25px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 900;
+    color: darkgrey;
+    text-decoration: none;
+}
+.main__page{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-image: url(images/main__page.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 105px ;
+    height: 740px;
+}
+.p__main {
+    font-family: "Philosopher", sans-serif;
+    color: #FBFBFB;
+    font-size: 24px;
+}
+h1{
+    font-family: 'Trade Winds';
+    font-size: 150px;
+    color: #8F4E61;
+    border-bottom: 10px solid #3F1924;
+    line-height: 120px;
+    padding: 0 80px;
+}
+.main__char{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(images/char__img.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0%;
+}
+.char__div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.div2__mask{
+    width: 240px;
+}
+.div2__h2{
+    font-family: 'Trade Winds';
+    font-size: 85px; 
+    font-weight: 300;
+    color: #691414;
+    line-height: 110px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #841B1B, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.div2__dot{
+    height: 16px;
+    width: 16px;
+    border-radius: 16px;
+    background-color: #470606;
+
+}
+.char__p{
+    font-family: "Philosopher", sans-serif;
+    /* color: #D34C4C; */
+    color: #B3B6C1;
+    font-size: 24px;
+    text-align: center;
+    width: 270px;
+    background: linear-gradient(to bottom, #B85E5E, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.main__items{
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    background-image: url(/dota_2/images/items.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.items__div3{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    padding-right: 140px ;
+}
+.div3__h2{
+    font-family: 'Trade Winds';
+    font-size: 96px; 
+    font-weight: 200;
+    color: #691414;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #841B1B, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.div3__dot{
+    height: 16px;
+    width: 16px;
+    border-radius: 16px;
+    background-color: #470606;
+    margin-bottom: 30px;
+
+}
+.div3__p{
+    font-family: "Philosopher", sans-serif;
+    color: #D34C4C;
+    color: #B3B6C1;
+    font-size: 30px;
+    text-align: center;
+    width: 330px;
+    background: linear-gradient(to bottom, #B85E5E, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.main__mechanic{
+    height: 800px;
+    background-image: url(/dota_2/images/mechanic.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.div1__p{
+    font-family: "Philosopher", sans-serif;
+    color: #D34C4C;
+    color: #B3B6C1;
+    font-size: 30px;
+    text-align: center;
+    width: 330px;
+    background: linear-gradient(to bottom, #B85E5E, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.main__strimers{
+    background-image: url(/dota_2/images/brooda.png) ;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.div__h2{
+    font-family: 'Trade Winds';
+    font-size: 96px; 
+    font-weight: 200;
+    color: #691414;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #841B1B, #999999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
+.strimers__h2{
+    font-family: 'Trade Winds';
+    font-size: 96px; 
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #F7F7FD, #201D1D);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 40px ;
+}
+.strimers__img{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.strimers__names{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trade Winds';
+    font-size: 30px; 
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #691414, #201D1D);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}

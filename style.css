@@ -106,7 +106,7 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-content: space-around;
-    background-image: url(/dota_2/images/items.png);
+    background-image: url(images/items.png);
     height: 800px;
     background-repeat: no-repeat;
     background-size: 100%;
